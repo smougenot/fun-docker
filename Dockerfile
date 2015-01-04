@@ -1,5 +1,5 @@
 #
-# Some fun (base on an idea from @dgageot
+# Some fun (based on an original idea from @dgageot)
 #
 # -> default use cowsay
 #  - try -l to list templates
