@@ -10,6 +10,11 @@ yum install -y git docker
 # start docker 
 service docker start
 
+# fig
+curl -L https://github.com/docker/fig/releases/download/1.0.1/fig-`uname -s`-`uname -m` \
+  > /usr/local/bin/fig; 
+chmod +x /usr/local/bin/fig;
+
 # init repo (ro)
 cd /opt; \
   git clone https://github.com/smougenot/java-centos-docker.git; \
