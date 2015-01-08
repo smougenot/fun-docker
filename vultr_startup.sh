@@ -5,7 +5,9 @@
 
 
 # git docker
-yum install -y git docker
+yum install -y \
+  git docker \
+  htop ncdu bash-completion
 
 # start docker 
 service docker start
@@ -24,3 +26,10 @@ cd /opt; \
 docker pull smougenot/java-centos:7
 docker pull progrium/busybox:latest
 docker pull ubuntu:trusty
+
+# lancer gitlab
+mkdir -p /opt/gitlab;
+curl -L https://raw.githubusercontent.com/sameersbn/docker-gitlab/master/fig.yml \
+  > /opt/gitlab/fig.yml;
+cd /opt/gitlab;
+fig pull
