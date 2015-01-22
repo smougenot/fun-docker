@@ -7,6 +7,8 @@ Docker: `docker pull smougenot/fun-docker`
 
 ----------
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/smougenot/fun-docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 Demonstrate what can be done with a Docker container
 Not a big deal but used as BBL handson 
